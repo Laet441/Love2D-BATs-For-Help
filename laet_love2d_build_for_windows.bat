@@ -3,30 +3,34 @@
 :: Compiling a Love2D project for Windows OS
 :: Written by laet in 2026
 
-:: All you need to compile is:
-:: 1. Place this file in your project folder
+:: If you're not familiar with my batch files, I recommend following the steps below the first time:
+:: 1. Place this batch file in your project folder
 :: 2. Create a folder named "Project"
 :: 3. Copy all your project files
-:: 4. Place them in the created "Project" folder
+:: 4. Place them in the newly created "Project" folder
 
-:: When you run this file, a "Build" folder will be created, within which another "Windows" folder
-::     will be created, which will contain your compiled program.
+:: To compile your project, simply run this batch file.
 
-:: To change the path to the Love2D executable, the name of the "Project" folder, or the names of
-::     the folders for the compiled program, edit the variables in this file.
+:: When you run this batch file, a "Build" folder will be created, within which another folder will be created,
+:: "Windows," which will contain your compiled program.
+
+:: To change the path to the Love2D executable file, the name of the "Project" folder, or
+:: the name of the folders for the compiled program, edit the variables in this file.
 
 :: [Русский] ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :: Компиляция Love2D проекта для ОС Windows
 :: Написал laet в 2026
 
-:: Всё что вам нужно для компиляции - это:
-:: 1. Поместить данный файл в папку с вашим проектом
-:: 2. Создать папку с именем "Project"
-:: 3. Скопировать все файлы вашего проекта
-:: 4. Поместить их в созданную папку "Project"
+:: Если вы не ознакомлены с моими батниками, советую в первый раз выполнить несколько шагов ниже:
+:: 1. Поместите данный батник в папку с вашим проектом
+:: 2. Создайте папку с именем "Project"
+:: 3. Скопируйте все файлы вашего проекта
+:: 4. Поместите их в созданную папку "Project"
 
-:: При запуске данного файла, создастся папка "Build", внутри которой будет создана ещё одна папка
+:: Для того чтобы скомпилировать ваш проект, достаточно запустить данный батник.
+
+:: При запуске данного батника, создастся папка "Build", внутри которой будет создана ещё одна папка
 ::     "Windows", в которой будет лежать ваша скомпилируемая программа.
 
 :: Для того чтобы изменить путь к исполняемому файлу Love2D или название для папки "Project" или же
