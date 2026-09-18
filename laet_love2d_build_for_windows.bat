@@ -34,8 +34,6 @@
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-
-
 set LOVE_PATH=C:\Program Files\LOVE
 set BUILD_PATH=Build\Windows
 set PROJECT_FOLDER_NAME=Project
