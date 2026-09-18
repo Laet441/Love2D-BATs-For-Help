@@ -67,4 +67,5 @@ copy /b "%LOVE_PATH%\love.exe"+game.love "%BUILD_PATH%\game.exe"
 copy "%LOVE_PATH%\*.dll" "%BUILD_PATH%\"
 copy "%LOVE_PATH%\license.txt" "%BUILD_PATH%\"
 del game.love
+cls
 pause
