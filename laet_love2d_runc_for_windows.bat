@@ -28,9 +28,21 @@
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+@echo off
+
 set LOVE_PATH=C:\Program Files\LOVE
 set PROJECT_FOLDER_NAME=Project
 
+if not exist "%LOVE_PATH%" (
+    echo Could not find LOVE folder in path "%LOVE_PATH%"
+    pause
+    goto :eof
+)
+if not exist "%LOVE_PATH%\love.exe" (
+    echo Could not find "love.exe" in path "%LOVE_PATH%"
+    pause
+    goto :eof
+)
 if not exist "%PROJECT_FOLDER_NAME%" (
     echo Could not find project folder "%PROJECT_FOLDER_NAME%" !
     pause
