@@ -45,7 +45,6 @@ if not exist "%PROJECT_FOLDER_NAME%" (
     pause
     goto :eof
 )
-
 if not exist "%BUILD_PATH%" mkdir "%BUILD_PATH%"
 cd "%PROJECT_FOLDER_NAME%"
 tar --format=zip -a -c -f ..\game.love *
